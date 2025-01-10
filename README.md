@@ -7,8 +7,8 @@ ADD https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin
 WORKDIR /opt
 ENTRYPOINT ["/usr/sbin/nginx"]
 CMD [ "-g" , "daemon off;"]
-ENV name=unnati
+ENV name=ankita
 ENV office=cloudblitz
-LABEL author=kohale
+LABEL author=shrivastav
 LABEL version=5.80.0
 EXPOSE 80
